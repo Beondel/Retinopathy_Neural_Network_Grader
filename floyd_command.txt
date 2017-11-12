@@ -1,0 +1,1 @@
+floyd run --gpu --data bgfmac/datasets/messidor_greyscale/2:/Scans --data bgfmac/datasets/retinopathy_grades/1:/Grades --env tensorflow python3 nn_classifier.py
